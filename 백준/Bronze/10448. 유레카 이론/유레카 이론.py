@@ -4,7 +4,7 @@ b = int(input())
 
 for _ in range(b):
     a = int(input())
-    find = False  # 각 입력에 대해 find 초기화
+    find = False 화
 
     if a <= 1000:
         for i in range(1, 45):
@@ -19,7 +19,7 @@ for _ in range(b):
             if find:
                 break
     
-    # 각 입력에 대한 결과 즉시 출력
+    
     if find:
         print(1)
     else:

@@ -4,7 +4,7 @@ b = int(input())
 
 for _ in range(b):
     a = int(input())
-    find = False 화
+    find = False 
 
     if a <= 1000:
         for i in range(1, 45):
